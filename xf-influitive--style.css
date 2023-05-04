@@ -1,0 +1,99 @@
+body html {
+    background-color: #303030;
+}
+
+/* === Buttons === */
+
+.button, button {
+    display: inline-block;
+    background-color: #FFF;
+    border: none;
+    box-shadow: none;
+    border-radius: 25px;
+    color: #111;
+    font-family: 'Gilmer Medium', sans-serif;
+    font-size: 15px;
+    line-height: normal;
+    margin: 0;
+    padding: 15px 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .15s ease-in-out;
+    white-space: nowrap;
+}
+
+.button.primary, button.primary {
+    background-color: #F26539;
+    border-color: #F26539;
+    border-style: none;
+    color: #fff!important;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+/* === END Buttons === */
+
+/* === Top Bar with Dropdown Menu === */
+
+.css-9ku9i {
+    background-color: #1b1b1b;
+    font-family: 'Gilmer Medium', sans-serif;
+}
+.css-wlqxhl /* Nav Link */ {
+    color: #FFF;
+}
+.css-h08i6v /* Nav Link Active */ {
+    color: #F26539;
+    border-bottom: 4px solid #F26539;
+}
+
+.css-h08i6v:hover, .css-h08i6v:hover .css-1q95gw3 {color: #F26539;}
+
+.css-1q95gw3 /* Dropdown Arrow */ {
+    color: #FFF;
+}
+/* === END Top Bar === */
+
+/* === Progress Bar === */
+
+#admin-goals .add-goal .progress-bar {
+    border: 1px solid #FFF;
+}
+
+#admin-goals .add-goal .progress-amount {
+    background-color: #72B252;
+    border: solid 1px #666;
+}
+
+/* === */
+
+.callout {
+    padding: 25px;
+    margin: 12px 20px 12px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: #1c1c1c;
+    position: relative;
+    border-radius: 14px;
+}
+
+.callout header {
+    zoom: 1;
+    margin-top: -10px;
+    padding: 14px 0 10px 0;
+    font-weight: 300;
+    background-color: transparent;
+    border-bottom: solid 1px #ddd;
+    color: #FFF;
+}
+.leader-list>li, ol.list>li, ul.list>li {
+    padding: 25px;
+    border-top: 1px solid #ddd;
+    background: #3C3C3C;
+    padding: 10px 15px;
+}
+ul.list>li.grouped-event {
+    padding: 25px;
+}
+
+ul.list>li.grouped-event .inline:hover {background: rgba(0, 0, 0, .1);}
